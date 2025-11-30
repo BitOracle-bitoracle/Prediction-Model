@@ -23,7 +23,8 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],    
+    # allow_origins=origins,        #로컬 테스트시에는 origins로 수정
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
