@@ -1,0 +1,49 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+tempCodeRunnerFile.py
+**/tempCodeRunnerFile.py
+
+# 환경 변수 / 시크릿
+.env
+.env.*
+*.env
+secrets.json
+config.local.*
+api_keys.*
+
+# 머신러닝 모델 (용량이 크므로 제외)
+*.keras
+*.h5
+*.pkl
+*.joblib
+
+# 이미지 결과물
+*.png
+*.jpg
+*.jpeg
+
+# 압축 파일
+*.zip
+*.tar.gz
+
+# IDE
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 가상환경
+venv/
+.venv/
+env/
